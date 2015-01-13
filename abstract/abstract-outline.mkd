@@ -1,0 +1,31 @@
+Code Management for Ops
+=======================
+
+  * Infrastructure as Code (IaC) has changed how IT infrastructure is built and maintained
+    * No more hand built systems with unknown configuration
+    * Infrastructure behaves more like output
+
+  * Operations is looking more like Development
+    * Instead of directly building out systems, tools are built out to build out systems
+    * Writing code instead of directly working on systems allows for whole new possibilities
+
+  * Sysadmin like a developer
+    * Version control
+      * Effective committing
+      * Effective branching and merging
+      * Use tools like git-bisect
+    * Testing
+      * Unit tests
+      * Integration tests
+      * Acceptance tests
+    * CI/CD
+      * Jenkins for CI, automated testing before deployment
+      * Jenkins for CD, automated testing *for* deployment
+
+Outcome
+
+The attendees should be able to:
+
+  * Use version control for IaC more effectively
+  * Use tests to write IaC more confidently and get feedback earlier
+  * Use automated testing and deployment to reduce the deployment cycle time

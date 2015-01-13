@@ -1,0 +1,23 @@
+Better DevOps through Thievery
+=======================
+
+Effective Practices for Infrastructure as Code
+----------------------------------------------
+
+The advent of Infrastructure as Code (IaC) has radically changed how IT
+infrastructure is built and maintained. Instead of building and maintaining
+servers by hand, tools like Puppet can be used to describe and automatically
+configure entire data centers.
+
+The implication of this is that the workflow of IT operations is starting to
+resemble the workflow of a traditional software developer. Writing code to
+make infrastructure changes instead of directly making changes opens up new
+opportunities for how changes can be made. The software development field has
+had 30+ years to learn how to effectively develop code, and their hard won
+wisdom can be ripped off wholesale to make it a breeze to develop IaC.
+
+This talk will discuss the following:
+
+  * Using version control tools to more effectively administer infrastructure
+  * Writing and using tests to confidently make changes and get feedback earlier
+  * Using continuous integration services to test changes and run deployments

@@ -1,0 +1,90 @@
+FOSDEM Presentation Outline
+===========================
+
+  * Using version control tools to more effectively administer infrastructure
+  * Writing and using tests to confidently make changes and get feedback earlier
+  * Using continuous integration services to test changes and run deployments
+
+  * Problem solving...?
+
+Introduction
+------------
+
+  * Infrastructure as Code (IaC) has changed how IT infrastructure is built and maintained
+    * No more hand built systems with unknown configuration
+    * Infrastructure behaves more like output
+
+  * Operations is looking more like Development
+    * Instead of directly building out systems, tools are built out to build out systems
+    * Writing code instead of directly working on systems allows for whole new possibilities
+
+  * Sysadmin like a developer
+
+VCS for Operations
+------------------
+
+Let's be honest - Git for Operations
+
+If you care about it, version control it.
+
+### The Corollary to VCS
+
+  * If it's versioned, all changes go through VCS
+  * No changing code on live systems
+
+### Really using VCS
+
+  * Git hooks
+    * pre-commit
+
+Testing for Operations
+----------------------
+
+### Test driven development in a nutshell
+
+  * General approach:
+    * Red
+    * Green
+    * Refactor
+
+### Test driven development for Operations
+
+If you care about it,  test it.
+
+  * serverspec
+  * cucumber-nagios
+  * https://github.com/jhoblitt/rspec-nagios-formatter
+
+### Testing as a contract
+
+  * Require testable behavior as part of your spec
+  * If they don't ask you to test it, then it doesn't matter
+  * If it breaks and there aren't tests, then it's not your problem. (Mostly)
+
+### Using existing tech (monitoring systems)
+
+So we have this really neat system that's great for testing systems. Nagbot?
+Naboo? Nagios!
+
+### Beware of alert fatigue!
+
+  * "The network is reliable." NO IT FUCKING ISN'T
+  * Hypervisors will fail, routers will autodefenestrate themselves, and computers are generally the worst.
+  * Before you blast yourself with alerts, figure out what's pager worthy and what can wait a few days.
+
+CI/CD for Ops
+-------------
+
+Continuous disintegration!
+
+So we have all of these tests that we can use to monitor systems, how can we
+actively put them into play?
+
+### Continuous Disintegration^WIntegration
+
+  * Code changes of all shapes and sizes
+  * IaC deployments
+
+### Continuous Destruction^WDeployment
+
+  * If it passes CI, push it live!
