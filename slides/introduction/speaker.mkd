@@ -1,0 +1,6 @@
+About me
+--------
+
+  * Software Engineer @ Puppet Labs, 2013 - present
+  * Operations Engineer @ Puppet Labs, 2011 - 2013
+  * General troublemaker
