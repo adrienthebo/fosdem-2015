@@ -1,0 +1,197 @@
+Outline
+=======
+
+About me
+--------
+
+...
+
+Life in Ops
+-----------
+
+  * Life is chaos
+  * Hard to predict work
+  * Automation smoothes workload
+  * Continuous ticket handling
+    * Work may be added at any time
+    * Kanban
+
+Life in Dev
+-----------
+
+  * Fewer surprises, more planning
+  * Discrete ticket handling
+    * Sprint planning sets tickets
+    * Changes to sprint avoided
+
+Traditional Ops
+---------------
+
+  * Acts like manual labor
+    * "Build X server"
+    * "Set up Y service"
+  * 1:1 relationship with created things
+  * Time invested generates constant output
+  * You provide a source of labor
+
+Ops with cfg mgmt
+-----------------
+
+  * Acts more like manufacturing
+    * "Automate building X server"
+    * "Automate setting up Y service"
+  * 1:n relationship with created things
+  * Time invested generates much more output
+  * You create things that can be reused
+
+How am dev in ops?
+------------------
+
+  * Software development has about 50 years of experience to build on
+  * Cfg mgmt has ~10 years of experience to build on
+
+  * Operations exists in a perpetual maelstrom of change
+
+  * Software development and cfg mgmt behave similarly
+  * What can we reuse?
+
+Making changes
+==============
+
+Version Control
+---------------
+
+VCS as file transfer
+--------------------
+
+  * Make a bunch of changes
+  * Commit them all
+
+VCS as change control
+---------------------
+
+  * Break up work into logical commits
+  * Change one thing at a time
+  * Lots of small commits > fewer large commits
+
+One commit per feature
+----------------------
+
+  * Logically grouped changes
+
+What this gets you
+------------------
+
+  * `git cherry-pick`
+  * `git rebase`
+  * `git bisect`
+
+Using CI
+========
+
+Mistakes happen
+---------------
+
+  * People forget to run tests
+  * Git doesn't have mandatory pre-commit hooks
+
+Gating with CI
+--------------
+
+  * Changes must pass CI
+  * Guaranteed safety net
+  * If it doesn't pass CI, it doesn't get deployed
+
+Turnaround time
+---------------
+
+  * How quickly can you get feedback on your changes?
+  * Catch errors earlier
+
+Test driven infrastructure
+==========================
+
+We need a way to validate changes. More than just trying things out by hand, we
+need a way to automatically confirm that things work.
+
+Using test frameworks lets us specify the behavior we want, and instantly
+validate it.
+
+Tests can also act as a contract. They're a codification of what you care about
+and help clear up expectations between outside parties.
+
+Validating changes
+------------------
+
+  * You do a thing, how do you make sure it's working?
+  * Test out service by hand
+    * make sure ports are open
+    * use service to make sure it works
+
+    * Why do that by hand?
+
+Testing infrastructure
+----------------------
+
+  * Use test frameworks for your systems
+    * Intro to rspec
+    * rspec-nagios-formatter
+    * webrat
+    * systemspec
+
+Tests as a contract
+-------------------
+
+  * Use tests to formally declare what customer wants
+  * Hard format so that everyone can see what's expected
+  * CYA
+    * "If you cared about some service then why don't we need to test it?"
+
+Using testing
+-------------
+
+  * Run by hand
+  * monitoring
+
+Treating monitoring as testing
+------------------------------
+
+  * Great service to track this testing stuff - monitoring!
+  * Test fail = monitoring alert
+  * Directly link testing to long term monitoring
+
+When everything breaks
+======================
+
+Problem solving for ops
+
+The allure of technical solutions
+---------------------------------
+
+  * Technical solutions are a lot of fun
+    * Write greenfield code
+    * Solve a problem your way
+    * Makes for a great presentation
+
+  * Solve simpler problems
+    * Determine minimal reproducible case
+    * Make one change at a time
+    * YAGNI
+
+Scientific debugging
+--------------------
+
+  * Debugging through falsification
+    * Choose one thing to falsify to cut problem space in half
+
+Minimal viable problem
+----------------------
+
+What's the smallest test case you can create to reproduce an issue?
+
+One problem at a time
+---------------------
+
+  * Solve one part of a problem, not all parts at once
+    * As opposed to "look at the entire chain of events and think really hard"
+  * YAGNI
