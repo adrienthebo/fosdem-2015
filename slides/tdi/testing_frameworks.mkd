@@ -1,0 +1,24 @@
+Testing - not just for devs!
+------------------
+
+<aside class="notes">
+
+  * So we just described a testing framework
+  * contributing to open source project
+    * FEED ME TESTS
+  * This is why people demand tests
+    * You make a change
+    * You want to make sure it works like you expect
+    * Otherwise you have no idea if your change actually works
+
+</aside>
+
+<!--
+
+So what we just described was a testing framework. If you've ever submitted code
+to an open source project you've probably heard something about "FEED ME TESTS"
+or something like that. So this is why - if you make a change, you want to make
+sure it works like you expect - otherwise, you have no idea if your change
+worked, or didn't work and broke other things.
+
+-->

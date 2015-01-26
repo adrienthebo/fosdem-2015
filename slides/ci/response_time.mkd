@@ -1,0 +1,28 @@
+Response time is critical
+-------------------------
+
+![compiling](/images/compiling.png)
+
+<aside class="notes">
+
+  * So using CI as a mandatory layer does take time
+  * BUT
+  * The longer it takes to fix a bug, the more costly the bugfix is
+  * Getting interrupted slows you down
+  * Pipelines
+    * Run fast tests first
+    * Then slower and slower tests
+
+</aside>
+
+<!--
+
+The longer it takes to fix a bug or add a feature, the more costly it is. So we
+want to make sure that we're writing correct code. We're going to be using CI to
+make sure we're building what we want.
+
+The trick is to organize your tests from fastest to slowest. If you screw up,
+you want to know in seconds rather than hours so you can work in one continuous
+stream of work.
+
+-->

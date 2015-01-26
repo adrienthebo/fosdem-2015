@@ -1,0 +1,48 @@
+Validating changes
+------------------
+
+Wait for angry users
+{: .fragment }
+
+Manual verification
+{: .fragment }
+
+<aside class="notes">
+
+  * We want to make sure what we wanted to happened, happened
+  * How do we do this?
+  * FRAGMENT
+  * We could wait for angry users to report problems.
+    * That goes over really well.
+  * Orrrr
+  * FRAGMENT
+  * We could manually test things
+  * Wait seriously?
+    * We have these powerful CM tools
+    * we're automating damn near everything
+    * We still do validation by hand?
+
+</aside>
+
+<!--
+
+So we need to make sure that what we wanted to happen, happened. How do we do
+this?
+
+FRAGMENT
+
+We could just wait for angry users to report problems. That goes over really
+well.
+
+Orrrrr
+
+FRAGMENT
+
+We could manually test things.
+
+Are we seriously doing this? We have these powerful configuration management
+tools, we're automating damn near everything and we still do validation by hand?
+Why don't we just bang rocks together?
+
+-->
+

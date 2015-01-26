@@ -1,0 +1,21 @@
+VCS as change review
+--------------------
+
+<aside class="notes">
+
+  * We've been talking about preventing errors in ops
+  * Having someone look over your shoulder is a horrible approach
+  * But code review offers a really effective way of doing this
+  * VCS makes this possible, if you use it right
+
+</aside>
+
+<!--
+
+Our goal is to work more effectively, right?
+
+Code review.
+
+VCS makes this much easier.
+
+-->

@@ -1,0 +1,10 @@
+Sherlocking
+-----------
+
+![Sherlock](/images/sherlock.jpg)
+
+<aside class="notes">
+
+  * AKA "Thinking really hard"
+  * Looking at the entire change of events
+</aside>

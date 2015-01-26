@@ -1,0 +1,19 @@
+id $USER
+--------
+
+  * Ops @ Various Places, 2005 - 2011
+  * Operations Engineer @ Puppet Labs, 2011 - 2013
+  * Open Source Software Engineer @ Puppet Labs, 2013 - present
+  * General troublemaker
+
+<aside class="notes">
+
+  * Start out with introductions
+  * I am Adrien Thebo
+  * Started in Ops in 2005
+  * Joined ops@puppetlabs, 2011
+    * As you would expect, this involved writing a lot of Puppet
+  * In 2013 I started working on Puppet
+  * It's been a great experience to work on both sides of the Puppet trenches
+
+</aside>

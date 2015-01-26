@@ -1,0 +1,10 @@
+Why are these bad?
+------------------
+
+<aside class="notes">
+
+  * So we can all tell that these things are pretty horrendous
+  * But why?
+  * Is there anything objectively wrong with them?
+
+</aside>

@@ -1,0 +1,17 @@
+Alert fatigue
+-------------
+
+<aside class="notes">
+
+  * So I came up with this great idea of testing
+  * This has a pretty big risk - more tests risk spurious errors
+  * Alarm fatigue
+    * Exposed to a large number of frequent alarms
+    * Desensitization over time
+    * Longer response times or missing important alarms
+
+  * Do this with caution
+    * Some things are worth waking up at 3AM for
+    * Many things are not
+
+</aside>

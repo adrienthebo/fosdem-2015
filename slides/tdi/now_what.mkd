@@ -1,0 +1,32 @@
+You made changes. Now what?
+---------------------------
+
+Does anything actually work?
+{: .fragment }
+
+<aside class="notes">
+
+  * So we've gone a bunch of stuff
+    * installed packages
+    * started services
+    * etc
+
+  * FRAGMENT
+  * did we really?
+
+  * What actually happened?
+    * CM tool may have reported what changed
+    * But does anything actually work?
+</aside>
+
+<!--
+
+So you've gone and applied a bunch of changes, stood up services, installed
+applications, et cetera. As far as you know.
+
+FRAGMENT
+
+Do you have any idea of what actually happened? Sure, you may have a record of
+changes, but have you achieved your end goal?
+
+-->

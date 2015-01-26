@@ -1,0 +1,24 @@
+Why VCS?
+--------
+
+<aside class="notes">
+
+  * So why should we use VCS?
+  * All of the obvious reasons
+    * Code backup
+    * History
+    * Ability to undo errors
+  * All of this standard stuff
+  * These things miss the deeper benefits
+
+</aside>
+
+<!--
+
+VCS is where all things code are stored.
+
+But VCS does a lot more than that. VCS should be the backbone of how you work.
+It provides good ways to isolate changes, gives you rollback, allows you to
+understand how things were changed.
+
+-->

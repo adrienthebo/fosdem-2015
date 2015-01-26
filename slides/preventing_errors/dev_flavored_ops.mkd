@@ -1,0 +1,26 @@
+Dev flavored ops
+----------------
+
+<aside class="notes">
+
+  * Operations originally more service based
+    * Someone wants X, you build X
+    * roughly 1:1 (constant) relationship between work done and value received
+  * CM changed this to be more product based
+    * Someone wants X, you provide a way to build X
+    * roughly 1:n (linear) relationship between work done and value received
+  * By focusing on providing products instead of labor ops is resembling dev
+
+</aside>
+
+<!--
+
+With CM, operations moves from manually making changes to building the tools
+and configurations that create the change. You're producing these artifacts that
+you can use and reason about. This makes ops look less like traditional ops and
+more like software development.
+
+So we have this codebase composed of modules, cookbooks, playbooks, or whatnot.
+What ideas can we reuse from software development and apply them to our code?
+
+-->

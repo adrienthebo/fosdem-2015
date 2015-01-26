@@ -1,0 +1,84 @@
+<section>
+
+![rspec](/images/rspec.png)
+
+<aside class="notes">
+
+  * RSpec is an extremely popular Ruby library for software testing
+  * It has all sorts of complex features, but we just want to do simple assertions.
+  * NESTED SLIDES
+
+</aside>
+
+</section>
+
+<section>
+
+~~~
+└> id adrien
+uid=1000(adrien) gid=1001(adrien)
+~~~
+{: .nohighlight}
+
+<aside class="notes">
+
+  * Let's try doing some basic tests based on the user on my laptop
+  * username adrien
+  * uid 1000
+  * gid 1001
+</aside>
+
+</section>
+
+<section>
+~~~
+require 'etc'
+describe 'my user account' do
+  # This is the thing we're testing
+  subject { Etc.getpwnam('adrien') }
+
+  it "has a UID of 1000" do
+    # This test should pass
+    expect(subject.uid).to(eq(1000))
+  end
+
+  it "has a GID of 1000" do
+    # This test should fail
+    expect(subject.gid).to(eq(1000))
+  end
+end
+~~~
+{: .ruby }
+
+</section>
+
+<section>
+
+~~~
+└> rspec -fd
+
+my user account
+  has a UID of 1000
+  has a GID of 1000 (FAILED - 1)
+
+Failures:
+
+  1) my user account has a GID of 1000
+     Failure/Error: expect(subject.gid).to(eq(1000))
+       
+       expected: 1000
+            got: 1001
+       
+       (compared using ==)
+     # ./spec/users_spec.rb:10:in `block (2 levels) in <top (required)>'
+
+Finished in 0.00492 seconds
+2 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/users_spec.rb:9 # my user account has a GID of 1000
+~~~
+{: .nohighlight}
+
+</section>

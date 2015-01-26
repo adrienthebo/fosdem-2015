@@ -1,0 +1,9 @@
+Life in dev
+-----------
+
+TODO
+
+  * Fewer surprises, more planning
+  * Discrete ticket handling
+    * Sprint planning sets tickets
+    * Changes to sprint avoided

@@ -1,0 +1,72 @@
+<section>
+
+The gargantuan commit
+---------------------
+
+**`44 files changed, 11485 insertions(+)`**
+{: .fragment }
+
+{: style="position: absolute; left: 3em; z-index: 2;" }
+
+~~~
+commit c3b966957ee8921de6110f2f7e21136243f40b61
+Author: Nope nope nope <nope@nope.nope>
+Date:   Thu Apr 04 14:14:43 2014 +0100
+
+    Add xtwist library
+
+    This adds a basic xtwist implementation, access control, infrastructure, and
+    tests.
+
+    This adds support for some secure network communications over TCP; UDP will
+    come later.
+
+ lib/xtw/gaset_creator.rb                                |  266 ++
+ lib/xtw/api/grid.rb                                     |  206 ++
+ lib/xtw/api/reversal.rb                                 |  406 +++
+ lib/xtw/api/access.rb                                   |  123 +
+ lib/xtw/api/utils.rb                                    |  112 +
+ lib/xtw/api/status.rb                                   |   53 +
+ lib/xtw/gxtwist/xtwist.rb                               | 2632 ++++++++++++++++++++
+ lib/xtw/gbase_access.rb                                 |  160 ++
+ lib/xtw/genchi_axfr.rb                                  |  854 +++++++
+ lib/xtw/glocal_access.rb                                |   38 +
+ lib/xtw/gobject_access.rb                               |   89 +
+ lib/xtw/gxtwist/xtwist_ext.rb                           |  209 ++
+ lib/xtw/gtop_access.rb                                  |   24 +
+ spec/unit/xtw/gaaset_creator_spec.rb                    |   33 +
+ spec/unit/xtw/gbase_access_spec.rb                      |   96 +
+ .../xtw/genchi/basic_services_spec.rb                   |  355 +++
+ .../xtw/genchi/genchi_rspec_helper.rb                   |   60 +
+ .../gxtwist/handle_basic_services_spec.rb               |  245 ++
+ spec/unit/xtw/gxtwist/networkcalls_spec.rb              |   88 +
+ .../xtw/gxtwist/handle_errors_spec.rb                   |  124 +
+ .../xtwist/handle_unsupported_services_spec.rb          |   28 +
+ spec/unit/xtw/gxtwist/xtwist_rspec_helper.rb            |   16 +
+ spec/unit/xtw/gxtwist/xtwist_spec.rb                    |   15 +
+ spec/unit/xtw/gtop_access_spec.rb                       |   37 +
+ spec/unit/xtw/status_spec.rb                            |   90 +
+ 44 files changed, 11485 insertions(+)
+~~~
+{: .nohighlight }
+
+
+<aside class="notes">
+
+  * Wow that seems like a large change
+  * So there's a commit message that describes what changed
+  * So how much changed?
+  * FRAGMENT
+  * OH MY GOD WHAT THE HELL
+    * HOW DO YOU REVIEW THIS?!?!?!?
+    * If you are some godly programmer and this only has 1 bug per 500 lines
+    * 24 bugs
+    * YOU WILL NOT FIND THEM
+  * DOWN SLIDE
+</aside>
+
+</section>
+
+<section>
+  ![arson](/images/koala-arsonist.gif)
+</section>

@@ -1,0 +1,41 @@
+The despairing commit
+---------------------
+
+~~~
+commit 9dced35e8ed5c53f5827321ac1083134107424cd
+Author: Adrien Thebo <adrien@puppetlabs.com>
+Date:   Wed Nov 14 11:20:26 2012 -0800
+
+    :(
+
+                    ___
+                   /   \
+                  |  o  |
+                   \   /
+            ________) (________
+           |                   |
+           '------.     .------'
+                   |   |
+                   |   |
+                   |   |
+                   |   |
+        /\         |   |         /\
+       /_ \        /   \        / _\
+         \ '.    .'     '.    .' /
+          \  '--'         '--'  /
+           '.                 .'
+             '._           _.'
+                `'-.   .-'`
+                    \ /
+                     `
+~~~
+{: .nohighlight }
+
+<aside class="notes">
+
+  * On the other end of the spectrum
+  * A commit that changes, like, one character.
+  * Why bother adding a commit message for that?
+  * Git archaeology - reverse engineering the motivation behind the change
+
+</aside>

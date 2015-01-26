@@ -1,0 +1,20 @@
+Commits tell a story
+--------------------
+
+<aside class="notes">
+
+  * Development process more than laying down code and making changes
+  * There's a thought process that goes into it
+  * You learn as you work through things
+  * That learning is a powerful thing
+  * Some changes need to be made that aren't obvious
+
+</aside>
+
+<!--
+
+The development process is more than laying down code and making changes. A lot
+of it is the thought process that goes behind it. Some changes need to be made
+that are make no sense by just looking at the code.
+
+-->

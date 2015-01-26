@@ -1,0 +1,64 @@
+{
+  "order": [
+    "introduction/title",
+    "introduction/speaker",
+
+    "frailty/title",
+    "frailty/guardrails",
+    "frailty/fail_deadly",
+    "frailty/ops_angst",
+
+    "preventing_errors/title",
+    "preventing_errors/use_cm",
+    "preventing_errors/devops_borat",
+    "preventing_errors/dev_flavored_ops",
+    "preventing_errors/thievery",
+
+    "making_changes/title",
+    "making_changes/vcs",
+    "making_changes/why_vcs",
+    "making_changes/doing_it_wrong",
+    "making_changes/the_nihilistic_commit",
+    "making_changes/the_despairing_commit",
+    "making_changes/the_commit_swarm",
+    "making_changes/the_gargantuan_commit",
+    "making_changes/why_are_these_bad",
+    "making_changes/commits_tell_a_story",
+    "making_changes/vcs_not_for_you",
+    "making_changes/meaningful_commits",
+    "making_changes/vcs_as_change_review",
+    "making_changes/more_than_just_vcs",
+
+    "tdi/title",
+    "tdi/now_what",
+    "tdi/validating_changes",
+    "tdi/what_we_want",
+    "tdi/testing_frameworks",
+    "tdi/testing_with_rspec",
+    "tdi/serverspec",
+    "tdi/serverspec_example",
+    "tdi/test_driven_monitoring",
+    "tdi/rspec_nagios_formatter",
+    "tdi/alert_fatigue",
+    "tdi/tests_as_a_contract",
+
+    "ci/title",
+    "ci/mistakes_happen",
+    "ci/things_are_still_terrible",
+    "ci/enter_ci",
+    "ci/ci_as_the_gatekeeper",
+    "ci/response_time",
+    "ci/keep_the_build_green",
+
+    "when_everything_breaks/title",
+    "when_everything_breaks/the_allure_of_technical_solutions",
+    "when_everything_breaks/shotgun_debugging",
+    "when_everything_breaks/sherlocking",
+    "when_everything_breaks/you_are_not_sherlock",
+    "when_everything_breaks/minimum_viable_problem",
+    "when_everything_breaks/scientific_debugging",
+    "when_everything_breaks/case_study_in_magic",
+
+    "fin"
+  ]
+}

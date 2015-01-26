@@ -1,0 +1,10 @@
+Test driven monitoring
+----------------------
+
+<aside class="notes">
+
+  * Great service to track this testing stuff - monitoring!
+  * Test fail = monitoring alert
+  * Directly link testing to long term monitoring
+
+</aside>

@@ -1,0 +1,10 @@
+Preventing errors
+=================
+
+<aside class="notes">
+
+So operations lives in a precarious place where one false step could be
+catastrophic. How can we deal with this?
+
+</aside>
+

@@ -1,0 +1,10 @@
+FIN
+===
+
+![kraken](/images/i-am-the-kraken.gif)
+
+<aside class="notes">
+
+  * (b) will blank screen
+
+</aside>

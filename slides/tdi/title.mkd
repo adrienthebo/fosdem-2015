@@ -1,0 +1,9 @@
+Test driven Infrastructure
+==========================
+
+<aside class="notes">
+
+  * Let's move on
+    * From how we make changes
+    * To how we check those changes
+</aside>

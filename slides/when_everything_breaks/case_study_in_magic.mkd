@@ -1,0 +1,16 @@
+A case study in magic
+---------------------
+
+<aside class="notes">
+
+  * Two seemingly identical VMs
+  * One gets a hostname, one doesn't
+  * `send host-name = "<hostname>";`
+  * No package version bump
+  * DIFFERENT PACKAGES
+
+  * Moral of the story: IF YOU CREATE A NEW PACKAGE WITH THE SAME VERSION THEN I WILL END YOU
+
+</aside>
+
+[ics-dhcp]: https://bugs.launchpad.net/ubuntu/+source/isc-dhcp/+bug/1308968 "isc-dhcp-client sends string literal "<hostname>" instead of hostname"

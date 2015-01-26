@@ -1,0 +1,17 @@
+Failing harder with CM
+----------------------
+
+> To err is human. To automatically propagate error to all
+> servers in automatic way is devops.
+> - Devops Borat
+
+<aside class="notes">
+
+  * Know what else CM is really good for?
+  * Screwing up and pushing a bad change to all of your servers, all at once.
+  * It's failure, but WEBSCALE!
+
+  * So clearly, CM is not a magic bullet that solves all problems
+  * However, it changes the type of problem you have to solve.
+
+</aside>

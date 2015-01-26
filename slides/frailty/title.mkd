@@ -1,0 +1,27 @@
+The frailty of humanity
+=======================
+
+<aside class="notes">
+
+  * This talk comes down to the frailty of humanity
+  * Humans are terrible at tests traditionally done by sysadmins
+    * We're forgetful
+    * We make mistakes
+    * We have bad days
+    * We make bad judgement calls
+  * Basically, we're human
+  * So how do we protect ourselves from missteps?
+
+</aside>
+
+<!--
+
+This talk really comes down to the frailty of humanity.
+
+Humans are terrible at a lot of tasks traditionally done by sysadmins. We're
+forgetful, error prone, and generally, well, human. We screw up, we mistype
+things, we omit important steps, and so forth.
+
+Given our frail human nature, how do we protect ourselves from missteps?
+
+-->

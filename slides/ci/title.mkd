@@ -1,0 +1,10 @@
+Continuous (Dis)Integration
+===========================
+
+<aside class="notes">
+
+  * There's still time left in this presentation
+  * That means I still have things to complain about
+  * Let's talk about CI
+
+</aside>

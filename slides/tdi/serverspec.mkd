@@ -1,0 +1,10 @@
+![serverspec](/images/serverspec.png)
+
+<aside class="notes">
+
+  * RSpec is very powerful but it's quite general
+  * We could use something more specialized
+  * Enter serverspec
+  * Serverspec is series of RSpec extensions around testing infrastructure
+
+</aside>

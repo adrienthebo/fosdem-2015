@@ -1,0 +1,31 @@
+CONFIGURATION MANAGEMENT ZOMG
+-----------------------------
+
+  * Remove human element
+  * Synchronize different environments
+  * Validate changes before going live
+
+<aside class="notes">
+
+  * Turns out CM does a number of things to prevent errors
+  * Instead of always changing live systems automate it
+    * Testing can be done offline
+    * Automated, so should be free of human errors
+  * By using the same configs for different environments you reduce risk when going live
+  * You can use things like noop to check for changes to make sure going live is safe
+
+
+
+</aside>
+
+<!--
+
+This should be completely unsurprising to you, but it turns out configuration
+management can do a number of things to prevent errors. Instead of making
+changes to live systems, you can remove the human factor and use CM to automate
+that part of it. By using the same configs to build production and development
+environments you can synchronize the two closely. Since you're building these
+configs ahead of time, you can really test and validate your configs before you
+go live.
+
+-->

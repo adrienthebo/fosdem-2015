@@ -1,0 +1,28 @@
+The nihilistic commit
+---------------------
+
+~~~
+└> git commit -a -m 'yeeeaaahhhhhh'
+[master cb15915] yeeeaaahhhhhh
+ 12 files changed, 184 insertions(+), 24 deletions(-)
+ create mode 100644 lib/septosquid/fail_deadly.rb
+ create mode 100644 lib/septosquid/guardrails.rb
+ create mode 100644 lib/septosquid/ink.rb
+ create mode 100644 lib/kangaroo-shark/flavor.rb
+ create mode 100644 lib/kangaroo-shark/chuckles.rb
+ create mode 100644 lib/kangaroo-shark/thievery.rb
+ create mode 100644 lib/kangaroo-shark/ext.rb
+ create mode 100644 lib/kangaroo-shark/core.rb
+~~~
+{: .nohighlight }
+
+<aside class="notes">
+
+  * Make a bunch of changes
+  * Commit them all
+  * lol
+  * It's like backups, but with a weird GUI
+  * Again, you get all of the glaringly obvious benefits
+  * But this isn't a best practice
+
+</aside>

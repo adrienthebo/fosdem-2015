@@ -1,0 +1,16 @@
+Version control
+---------------
+
+(probably Git)
+{: .fragment }
+
+<aside class="notes">
+
+  * Version control!
+  * This is generally pretty well known
+  * If you're writing code, then you stuff it in some VCS tool
+  * VCS becomes the entry point for making changes
+  * FRAGMENT
+  * In reality this is probably Git since it has so much market share
+
+</aside>

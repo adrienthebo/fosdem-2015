@@ -1,0 +1,43 @@
+More than just VCS
+------------------
+
+<aside class="notes">
+
+  * These ideas extend beyond just version control
+  * VCS tools provide workflows and methods of development
+  * This is what we're really after
+
+  * we talk about small commits that implement a single feature
+  * We're really talking about working in an intentional manner
+  * In ops we have a tendency to throw work at a problem till it's fixed
+  * This model moves away from that approach
+
+  * We want to use a workflow that:
+    * helps us build good features
+    * enable code review
+    * help mitigate defects
+
+  * And this is what we can steal from dev
+
+</aside>
+
+<!--
+
+These ideas extend far beyond just version control. Version control tools
+allow workflows and methods of development, and that's what we're really after.
+
+When we talk about having small commits that implement a single feature or bug
+at a time, we're really talking about doing work in an intentional manner.
+Instead of just hacking on something until it works, you're a building something
+with a clear focus and desired outcome.
+
+And when we talk about having clear commit messages, we're doing so with the
+assumption that whatever we're building now, we'll be  reusing and extending
+later.
+
+All in all, we want to use a workflow that allows us to build good features,
+enable code review, and easily spot and deal with defects. This is why we use
+VCS when developing software, and this is what Operations can steal from
+software development.
+
+-->

@@ -1,0 +1,44 @@
+Things are still terrible
+-------------------------
+
+### VCS is not enough
+{: .fragment }
+
+### Testing is not enough
+{: .fragment }
+
+<aside class="notes">
+
+  * At some point you will commit bad code
+    * It'll get reviewed and look fine
+    * It'll get merged
+    * FIAR
+  * FRAGMENT
+
+  * Testing by itself won't solve this
+    * You can still write bad code
+    * skip testing because it's a trivial fix
+    * MOAR FIRE
+
+  * What if we _can't_ push bad code?
+    * What if it's impossible?
+
+</aside>
+
+<!--
+
+So there's still time left in this presentation, so that means I still have
+things to complain about.
+
+At some point you will commit bad code. It'll look fine, it'll get reviewed,
+you'll merge it, and things will fall apart.
+
+And testing by itself won't solve this problem either. You can still write bad
+code, skip testing because the change is "trivial" or something, and bam, you're
+still in a world of hurt.
+
+So what if we can make sure that we _can't_ push bad code? What if it's
+impossible? That would be neat. This is going to require some sort of testing
+system but there are a lot of reasons why VCS hooks aren't sufficient.
+
+-->

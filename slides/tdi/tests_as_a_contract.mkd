@@ -1,0 +1,13 @@
+Tests as a contract
+-------------------
+
+<aside class="notes">
+
+  * Use tests to formally declare what customer wants
+  * Hard format so that everyone can see what's expected
+    * Here are the things we care about
+    * RSpec output is a great way to demonstrate this
+  * CYA
+    * "If you cared about some service then why don't we need to test it?"
+
+</aside>

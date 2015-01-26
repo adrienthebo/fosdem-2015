@@ -1,0 +1,18 @@
+Enter CI
+--------
+
+![jenkins](/images/jenkins-full.png)
+
+<aside class="notes">
+
+  * We have two things
+    * Config mgmt as code
+    * Tests for that
+  * We can use CI!
+  * CI is kind of a nebulous term
+    * Continuous testing
+    * Continuous quality control
+  * Whenever you make a change, it goes through CI
+  * If it's good, it gets merged
+
+</aside>

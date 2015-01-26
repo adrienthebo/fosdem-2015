@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+
+gem 'serverspec'
+gem 'rspec-nagios-formatter', :git => 'git://github.com/adrienthebo/rspec-nagios-formatter', :ref => "rspec-3"

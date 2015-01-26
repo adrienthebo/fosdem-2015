@@ -1,0 +1,10 @@
+Making Changes
+==============
+
+<aside class="notes">
+
+  * Let's start out with how we make code changes and track those changes
+  * How do you track changes?
+  * How do you make sure your changes are good?
+
+</aside>

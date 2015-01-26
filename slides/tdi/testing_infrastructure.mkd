@@ -1,0 +1,10 @@
+Testing infrastructure
+----------------------
+
+  * Use test frameworks for your systems
+    * Intro to rspec
+    * rspec-nagios-formatter
+    * webrat
+    * systemspec
+
+

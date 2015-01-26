@@ -1,0 +1,24 @@
+The commit swarm
+----------------
+
+~~~
+
+0480dcf Adrien Thebo 2 years, 2 months ago DUDE
+6f7db4f Adrien Thebo 2 years, 2 months ago Well ok
+9315311 Adrien Thebo 2 years, 2 months ago THAT'S NO MOON
+6f7db4f Adrien Thebo 2 years, 2 months ago syntax error
+9315311 Adrien Thebo 2 years, 2 months ago fix
+9970f32 Adrien Thebo 2 years, 2 months ago Revert "Grr"
+67e569c Adrien Thebo 2 years, 2 months ago Grr
+3b6b630 Adrien Thebo 2 years, 2 months ago Comma
+
+~~~
+{: .nohighlight }
+
+<aside class="notes">
+
+  * Extension of the despairing commit
+  * Dozens of tiny fixes in quick succession
+  * So... with all of these commits, what actually changed?
+
+</aside>

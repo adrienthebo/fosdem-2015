@@ -1,0 +1,21 @@
+Social VCS
+----------
+
+TODO
+
+TODO GitHub logo
+
+> Always code as if the person who ends up maintaining
+> your code is a violent psychopath who knows where you live.
+> @codinghorror
+
+
+<!--
+
+Version control systems especially shine when used in a collaborative manner.
+When used effectively, you reduce the mental burden of collaborators that have
+to interact with your changes. Ideally your commit messages and commit contents
+should allow end users to immediately understand why you changed things, instead
+of having to mentally retrace your path.
+
+-->

@@ -1,0 +1,11 @@
+Minimum viable problem
+----------------------
+
+<aside class="notes">
+
+  * Debugging where you have no idea what's going on
+  * Reduce the problem space as much as you can
+  * 
+
+
+</aside>

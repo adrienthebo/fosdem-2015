@@ -1,0 +1,17 @@
+Thievery
+--------
+
+<aside class="notes">
+
+  * So Ops is behaving more like dev
+  * We build IaC
+    * modules
+    * cookbooks
+    * playbooks
+    * charms
+  * What can we learn from software engineering?
+    * Effective VCS
+    * Test driven infrastructure
+    * CI for ops
+
+</aside>

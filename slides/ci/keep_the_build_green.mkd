@@ -1,0 +1,20 @@
+Keep the build green
+--------------------
+
+> Nagios is red
+> Jenkins is blue
+> Whoever wrote these tests
+> I will find you and I will kill you
+
+<aside class="notes">
+
+  * Link up your monitoring and your CI
+  * You have to keep on top of issues
+  * Dev practice - don't merge code while the build is failing
+  * Don't let things slide - if it's broken, fix it.
+  * It's forced best practices
+
+  * Lore - Jenkins defaults success to blue
+  * Reasons!
+
+</aside>

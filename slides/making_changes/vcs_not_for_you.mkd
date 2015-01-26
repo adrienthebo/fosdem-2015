@@ -1,0 +1,33 @@
+VCS is for others
+-------------------
+
+![not-for-you](/images/not-for-you.jpg)
+
+<aside class="notes">
+
+  * We've all assumed that VCS is supposed to primarly benefit you, the developer
+  * This is wrong. You get a benefit but you're not the main beneficiary
+  * The way you develop code impacts others
+    * With CM you're building something that'll be extended and reused
+  * You won't be the only person working with that code
+  * Other people will need to interact with your code
+    * They'll need to debug it
+    * improve it
+    * understand it
+
+</aside>
+
+<!--
+
+We've all been assuming that you, the guy writing this code, is supposed to
+benefit the most from VCS. This is wrong. You do get a lot of benefits -
+backups, history, but the biggest benefit comes from working with others.
+
+The way that you develop code has a big impact on others. With configuration
+management you're building something that'll be reused and extended, and you're
+not the only one doing it.
+
+Other people will need to interact with your code, and they may need more
+insight. They need to be able to understand why you did, what you did, without
+having to engage in Git archeology.
+-->

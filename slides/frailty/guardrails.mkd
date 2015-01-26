@@ -1,0 +1,47 @@
+Guardrails
+----------
+
+  * `rm --preserve-root`
+  * `mv -i`
+  * `cp -i`
+  * `rm -i`
+{: .fragment }
+
+<aside class="notes">
+
+  * Some of the commands build in guard rails
+  * If we make a mistake the damage is limited or mitigated
+  * Here's a handful
+  * FRAGMENT
+  * So the only one that I actually like out of this is preserve-root
+    * It's a reasonable thing to assume that you don't want to destroy your system
+  * The rest of these are frequently seen on stock RHEL or CentOS systems
+    * `-i` will make these commands prompt before doing anything
+    * THIS IS USELESS
+    * This is the first thing I remove when building one of these systems
+  * So these are our safety measures?
+  * This is how we're making Operations safer?
+
+</aside>
+
+<!--
+
+Some of the commands that we use build in guard rails of sorts, so we can't
+destroy things by accident.
+
+FRAGMENT
+
+One notable example of this is the preserve root flag on `rm`. It's a reasonable
+thing to assume that you don't want to destroy your servers on a regular basis.
+
+What about other ones? Anyone that's used a stock RHEL or CentOS system will be
+familiar with these:
+
+As many of you probably know, the `-i` flag will prompt users before actually
+changing files.
+
+This is a horrible safety guard because it's so annoying. One of the first
+things I do with a fresh box is tear these out. So is this how we're trying to
+make Operations safer?
+
+-->

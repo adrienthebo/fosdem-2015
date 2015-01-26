@@ -1,0 +1,13 @@
+Shotgun debugging
+-----------------
+
+<aside class="notes">
+
+  * Change a bunch of things and see what happens
+  * Great, so things might work. What did you do?
+  * Making a thing work without knowing why is dangerous
+
+> It's bad when something isn't working and you don't know why, but it's much
+> worse when something _is_ working and you don't know why.
+
+</aside>

@@ -1,0 +1,13 @@
+Scientific debugging
+--------------------
+
+  * Debugging through falsification
+
+<aside class="notes">
+
+  * Falsification
+    * Change one thing at a time
+    * If it doesn't affect things, change it back
+  * Figure out some base truths, and expand your knowledge from this
+
+</aside>

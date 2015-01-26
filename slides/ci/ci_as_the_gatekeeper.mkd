@@ -1,0 +1,23 @@
+CI as the gatekeeper
+--------------------
+
+<aside class="notes">
+
+  * Using CI removes the element of human error
+  * You submit changes
+  * Tests run automatically
+  * If it's good, it goes live
+  * You can't bypass it, it can't be forgotten
+  * Like VCS, it's an integral part of how you work.
+
+</aside>
+
+<!--
+
+CI tools excel in this sort of problem space. They're really good at doing
+things like running actions on every commit or similar things. So what if we say
+every change made has to go through CI? If a breaking change is introduced,
+it'll be caught immediately. You can't bypass it, it can't be skipped, like
+version control it's an integral part of your workflow.
+
+-->

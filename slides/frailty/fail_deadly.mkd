@@ -1,0 +1,46 @@
+Fail deadly
+-----------
+
+```
+iscsiadm --mode node --portal 192.168.1.1:3260 --logout 7de786a9-be75-4711-b782-fb26aec963d4
+```
+
+THIS = DEATH
+{: .fragment}
+
+```
+iscsiadm --mode node --portal 192.168.1.1:3260 --logout -T 7de786a9-be75-4711-b782-fb26aec963d4
+```
+{: .fragment }
+
+<aside class="notes">
+  * War stories
+    * That one innocuous looking command that burned down the world
+  * Example
+    * log out of a single isci target
+    * Should be safe?
+    * NO
+    * FRAGMENT
+    * If you omit the `-T` flag, it logs out of all targets
+</aside>
+
+<!--
+
+Pretty much everyone that's been in Ops has a story or three where they mistyped
+a command and did something extremely 
+
+Look at this example - it should unmount a single iscsiadm target, right?
+
+If you omit the `-T` flag, it logs out of all sessions. All sessions. It doesn't
+complain that you passed an extra argument, it just blows up everything.
+
+So seriously, this is what we've got in Ops? Commands that will happily destroy
+things on us? And people wonder why people in Ops are irritable BECAUSE WE LIVE
+ON THE EDGE OF DEATH.
+
+Granted, software development has similar problems. Use a function incorrectly
+and your system will catch fire, possibly literally. However, software
+development has taken this into consideration.
+
+-->
+

@@ -1,0 +1,12 @@
+Doing it wrong
+--------------
+
+<aside class="notes">
+
+  * These more subtle aspects are best illustrated by counter examples
+  * Places where you still get those obvious benefits of VCS
+  * But we should all be able to see that these examples are not ideal
+  * I pulled most of these examples from the ops module codebase
+  * I claim to be no saint
+
+</aside>
