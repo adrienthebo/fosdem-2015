@@ -1,0 +1,9 @@
+Life in ops
+-----------
+
+  * Life is chaos
+  * Hard to predict work
+  * Automation smoothes workload
+  * Continuous ticket handling
+    * Work may be added at any time
+    * Kanban

@@ -1,0 +1,7 @@
+What this gets you
+------------------
+
+  * `git cherry-pick`
+  * `git rebase`
+  * `git bisect`
+

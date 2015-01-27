@@ -1,0 +1,5 @@
+Turnaround time
+---------------
+
+  * How quickly can you get feedback on your changes?
+  * Catch errors earlier

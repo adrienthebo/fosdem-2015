@@ -1,0 +1,6 @@
+When everything breaks
+======================
+
+<aside class="notes">
+Problem solving for ops
+</aside>

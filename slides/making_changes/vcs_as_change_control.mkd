@@ -1,0 +1,7 @@
+VCS as change control
+---------------------
+
+  * Break up work into logical commits
+  * Change one thing at a time
+  * Lots of small commits > fewer large commits
+

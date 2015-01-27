@@ -1,6 +1,36 @@
 {
   "order": [
     "introduction/title",
-    "introduction/speaker"
+    "introduction/speaker",
+    "introduction/life_in_ops",
+    "introduction/life_in_dev",
+    "introduction/traditional_ops",
+    "introduction/ops_with_cfg_mgmt",
+    "introduction/dev_flavored_ops",
+
+    "making_changes/title",
+    "making_changes/vcs_as_file_transfer",
+    "making_changes/vcs_as_change_control",
+    "making_changes/one_commit_per_feature",
+    "making_changes/what_this_gets_you",
+
+    "ci/title",
+    "ci/mistakes_happen",
+    "ci/gating_with_ci",
+    "ci/turnaround_time",
+
+    "tdi/title",
+    "tdi/validating_changes",
+    "tdi/testing_infrastructure",
+    "tdi/tests_as_a_contract",
+    "tdi/test_driven_monitoring",
+
+    "when_everything_breaks/title",
+    "when_everything_breaks/the_allure_of_technical_solutions",
+    "when_everything_breaks/shotgun_debugging",
+    "when_everything_breaks/sherlocking",
+    "when_everything_breaks/minimum_viable_problem",
+    "when_everything_breaks/scientific_debugging",
+    "when_everything_breaks/case_study_in_magic"
   ]
 }

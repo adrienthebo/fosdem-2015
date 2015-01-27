@@ -1,0 +1,10 @@
+Dev flavored ops
+----------------
+
+  * Software development has about 50 years of experience to build on
+  * Cfg mgmt has ~10 years of experience to build on
+
+  * Operations exists in a perpetual maelstrom of change
+
+  * Software development and cfg mgmt behave similarly
+  * What can we reuse?

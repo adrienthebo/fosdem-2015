@@ -1,0 +1,5 @@
+One commit per feature
+----------------------
+
+  * Logically grouped changes
+

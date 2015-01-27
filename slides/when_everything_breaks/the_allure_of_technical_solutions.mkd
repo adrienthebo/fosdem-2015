@@ -1,0 +1,13 @@
+The allure of technical solutions
+---------------------------------
+
+  * Technical solutions are a lot of fun
+    * Write greenfield code
+    * Solve a problem your way
+    * Makes for a great presentation
+
+  * Solve simpler problems
+    * Determine minimal reproducible case
+    * Make one change at a time
+    * YAGNI
+

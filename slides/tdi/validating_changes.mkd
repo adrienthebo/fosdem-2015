@@ -1,0 +1,10 @@
+Validating changes
+------------------
+
+  * You do a thing, how do you make sure it's working?
+  * Test out service by hand
+    * make sure ports are open
+    * use service to make sure it works
+
+    * Why do that by hand?
+

@@ -1,0 +1,7 @@
+Gating with CI
+--------------
+
+  * Changes must pass CI
+  * Guaranteed safety net
+  * If it doesn't pass CI, it doesn't get deployed
+

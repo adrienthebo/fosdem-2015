@@ -1,0 +1,6 @@
+Mistakes happen
+---------------
+
+  * People forget to run tests
+  * Git doesn't have mandatory pre-commit hooks
+

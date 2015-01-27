@@ -1,0 +1,9 @@
+Tests as a contract
+-------------------
+
+  * Use tests to formally declare what customer wants
+  * Hard format so that everyone can see what's expected
+  * CYA
+    * "If you cared about some service then why don't we need to test it?"
+
+

@@ -1,0 +1,9 @@
+Making Changes
+==============
+
+<aside class="notes">
+
+  * Making changes to your conf mgmt code
+  * How do you track changes?
+  * How do you make sure your changes are good?
+</aside>
