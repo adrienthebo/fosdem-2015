@@ -3,6 +3,8 @@ Better Devops through Thievery
 
 Applying Software Development Practices to Operations
 
-Adrien Thebo
+- - -
 
-Puppet Labs
+Adrien Thebo \| Puppet Labs
+
+@nullfinch

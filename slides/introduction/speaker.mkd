@@ -1,4 +1,4 @@
-About me
+id $USER
 --------
 
   * Software Engineer @ Puppet Labs, 2013 - present
