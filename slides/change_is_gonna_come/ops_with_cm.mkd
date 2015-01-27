@@ -1,9 +1,17 @@
 Ops with cfg mgmt
 -----------------
 
+  * Ops provides a service
+  * 1:n relationship time invested/value created
+
+<!--
+
   * Acts more like manufacturing
     * "Automate building X server"
     * "Automate setting up Y service"
-  * 1:n relationship with created things
   * Time invested generates much more output
   * You create things that can be reused
+  * Ops builds the tools that does the work
+  * Ops provides a product
+
+-->

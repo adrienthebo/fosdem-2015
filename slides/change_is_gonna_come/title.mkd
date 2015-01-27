@@ -1,0 +1,12 @@
+Operations is changing
+======================
+
+<aside class="notes">
+
+  * Operations is going through a time of radical change
+  * Ephemeral servers (cloud computing)
+  * Configuration management
+  * 10 years ago you would have a data center full of pets
+  * Today you can have a handful of disposable cattle
+
+</aside>

@@ -1,9 +1,15 @@
 Traditional Ops
 ---------------
 
+  * Operations provides labor
+  * 1:1 relationship between invested time and generated value
+
+<!--
+
   * Acts like manual labor
     * "Build X server"
     * "Set up Y service"
-  * 1:1 relationship with created things
   * Time invested generates constant output
   * You provide a source of labor
+
+-->
