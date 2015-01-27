@@ -44,8 +44,8 @@ Ops with cfg mgmt
   * Time invested generates much more output
   * You create things that can be reused
 
-How am dev in ops?
-------------------
+Dev flavored ops
+----------------
 
   * Software development has about 50 years of experience to build on
   * Cfg mgmt has ~10 years of experience to build on
