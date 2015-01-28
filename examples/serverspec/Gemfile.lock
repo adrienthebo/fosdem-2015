@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/adrienthebo/rspec-nagios-formatter
+  revision: 7c10ba4af9493e2afa362b089187ca0fde5bbc3d
+  ref: rspec-3
+  specs:
+    rspec-nagios-formatter (0.2.0)
+      rspec (~> 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -34,4 +42,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rspec-nagios-formatter!
   serverspec
