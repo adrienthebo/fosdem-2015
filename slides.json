@@ -30,9 +30,9 @@
     "tdi/testing_infrastructure",
     "tdi/serverspec",
     "tdi/serverspec_example",
-    "tdi/tests_as_a_contract",
     "tdi/test_driven_monitoring",
     "tdi/rspec_nagios_formatter",
+    "tdi/tests_as_a_contract",
     "tdi/alert_fatigue",
 
     "when_everything_breaks/title",
