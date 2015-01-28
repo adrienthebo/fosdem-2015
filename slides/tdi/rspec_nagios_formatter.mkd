@@ -1,24 +1,11 @@
 RSpec Nagios formatter
 ----------------------
 
-```
-require 'etc'
-describe 'my user account' do
-  subject { Etc.getpwnam('adrien') }
-
-  it "has a UID of 1000" do
-    expect(subject.uid).to(eq(1000))
-  end
-
-  it "has a GID of 1000" do
-    expect(subject.gid).to(eq(1000))
-  end
-end
-```
-
-```
-$ rspec -f RSpec::Nagios::Formatter
-RSPEC Critical - 2 examples, 1 failure, finished in 0.001126 seconds | examples=2 \
-  passing=1 failures=1 pending=0 conformance=50% time=0.001126s
-./spec/users_spec.rb:9 my user account has a GID of 1000
-```
+~~~
+root@debian-7-i386:/vagrant/modules/apache# bundle exec rspec --format RSpec::Nagios::Formatter
+RSPEC Critical - 4 examples, 2 failures, finished in 0.088027 seconds \
+  | examples=4 passing=2 failures=2 pending=0 conformance=50% time=0.088027s
+./spec/systemspec/apache_spec.rb:11 installing and configuring apache Service "apache2" should be running
+./spec/systemspec/apache_spec.rb:15 installing and configuring apache Port "80" should be listening
+~~~
+{: .nohighlight }
