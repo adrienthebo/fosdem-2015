@@ -4,4 +4,3 @@ VCS as file transfer
   * Make a bunch of changes
   * Commit them all
   * It's like backups, but with a weird GUI
-

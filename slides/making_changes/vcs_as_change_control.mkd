@@ -4,4 +4,13 @@ VCS as change control
   * Break up work into logical commits
   * Change one thing at a time
   * Lots of small commits > fewer large commits
+  * Meaningful commit messages
 
+<!--
+
+When writing a commit message, remember - the message isn't for you. You're the
+one that wrote the code. The commit message is for everyone that follows you, so
+that they can understand why you changed what you did without having to go
+through your thought process.
+
+-->

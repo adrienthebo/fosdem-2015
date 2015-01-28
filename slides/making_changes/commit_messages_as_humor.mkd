@@ -1,0 +1,40 @@
+Commit messages as humor
+------------------------
+
+```
+commit 9dced35e8ed5c53f5827321ac1083134107424cd
+Author: Adrien Thebo <adrien@puppetlabs.com>
+Date:   Wed Nov 14 11:20:26 2012 -0800
+
+    :(
+
+                    ___
+                   /   \
+                  |  o  |
+                   \   /
+            ________) (________
+           |                   |
+           '------.     .------'
+                   |   |
+                   |   |
+                   |   |
+                   |   |
+        /\         |   |         /\
+       /_ \        /   \        / _\
+         \ '.    .'     '.    .' /
+          \  '--'         '--'  /
+           '.                 .'
+             '._           _.'
+                `'-.   .-'`
+                    \ /
+                     `
+```
+{: .nohighlight }
+
+<aside class="notes">
+
+  * Sometimes you just need to screw with your coworkers
+  * What changed in this commit? FUCK YOU that's what.
+  * Git archaeology - reverse engineering the motivation behind the change
+
+</aside>

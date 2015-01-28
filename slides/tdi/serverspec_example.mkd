@@ -1,0 +1,197 @@
+<section>
+A Serverspec example
+--------------------
+
+Red/green/refactor
+
+</section>
+
+<section>
+
+The tests
+---------
+
+~~~
+require 'spec_helper'
+
+describe "installing and configuring apache" do
+
+  describe package('apache2') do
+    it { should be_installed }
+  end
+
+  describe service('apache2') do
+    it { should be_enabled }
+    it { should be_running }
+  end
+
+  describe port(80) do
+    it { should be_listening }
+  end
+end
+~~~
+{: .ruby }
+
+</section>
+
+<section>
+
+The code
+--------
+
+~~~
+class apache {
+  # Look at all this potential!
+}
+~~~
+{: .nohighlight }
+
+</section>
+
+<section>
+
+Red
+---
+
+~~~
+root@debian-7-i386:/vagrant/modules/apache# puppet apply --modulepath /vagrant/modules/ -e 'include apache'
+Notice: Compiled catalog for debian-7-i386.vagrantup.com in environment production in 0.02 seconds
+Notice: Finished catalog run in 0.01 seconds
+~~~
+{: .nohighlight }
+
+~~~
+root@debian-7-i386:/vagrant/modules/apache# bundle exec rspec spec/systemspec/apache_spec.rb
+FFFF
+
+[...]
+
+Finished in 0.11899 seconds (files took 3.71 seconds to load)
+4 examples, 4 failures
+
+Failed examples:
+
+rspec ./spec/systemspec/apache_spec.rb:6 # installing and configuring apache Package "apache2" should be installed
+rspec ./spec/systemspec/apache_spec.rb:10 # installing and configuring apache Service "apache2" should be enabled
+rspec ./spec/systemspec/apache_spec.rb:11 # installing and configuring apache Service "apache2" should be running
+rspec ./spec/systemspec/apache_spec.rb:15 # installing and configuring apache Port "80" should be listening
+~~~
+{: .nohighlight }
+
+</section>
+{: data-background="#9A3026" }
+
+<section>
+
+Implement
+---------
+
+~~~
+class apache {
+  package { 'apache2':
+    ensure => present,
+  }
+}
+~~~
+{: .nohighlight }
+
+</section>
+
+<section>
+
+Green
+-----
+
+~~~
+root@debian-7-i386:/vagrant/modules/apache# puppet apply --modulepath /vagrant/modules/ -e 'include apache'
+Notice: Compiled catalog for debian-7-i386.vagrantup.com in environment production in 0.15 seconds
+Notice: /Stage[main]/Apache/Package[apache2]/ensure: ensure changed 'purged' to 'present'
+Notice: Finished catalog run in 6.67 seconds
+~~~
+
+~~~
+root@debian-7-i386:/vagrant/modules/apache# bundle exec rspec spec/systemspec/apache_spec.rb 
+....
+
+Finished in 0.08336 seconds (files took 3.6 seconds to load)
+4 examples, 0 failures
+~~~
+
+</section>
+{: data-background="#008D66" }
+
+<section>
+
+Refactor
+--------
+
+</section>
+
+<section>
+
+Red
+---
+
+~~~
+root@debian-7-i386:/vagrant/modules/apache# /etc/init.d/apache2 stop
+[ ok ] Stopping web server: apache2 ... waiting .
+~~~
+
+~~~
+root@debian-7-i386:/vagrant/modules/apache# bundle exec rspec spec/systemspec/apache_spec.rb 
+..FF
+
+[...]
+
+Finished in 0.11485 seconds (files took 3.51 seconds to load)
+4 examples, 2 failures
+Failed examples: 
+rspec ./spec/systemspec/apache_spec.rb:11 # installing and configuring apache Service "apache2" should be running
+rspec ./spec/systemspec/apache_spec.rb:15 # installing and configuring apache Port "80" should be listening
+~~~
+
+</section>
+{: data-background="#9A3026" }
+
+<section>
+
+Fix
+---
+
+~~~
+class apache {
+  package { 'apache2':
+    ensure => present,
+  }
+
+  service { 'apache2':
+    ensure => running,
+    enable => true,
+  }
+}
+~~~
+{: .nohighlight }
+
+</section>
+
+<section>
+
+Green
+-----
+
+~~~
+root@debian-7-i386:/vagrant/modules/apache# puppet apply --modulepath /vagrant/modules/ -e 'include apache'
+Notice: Compiled catalog for debian-7-i386.vagrantup.com in environment production in 0.20 seconds
+Notice: /Stage[main]/Apache/Service[apache2]/ensure: ensure changed 'stopped' to 'running'
+Notice: Finished catalog run in 0.16 seconds
+~~~
+
+~~~
+root@debian-7-i386:/vagrant/modules/apache# bundle exec rspec spec/systemspec/apache_spec.rb 
+....
+
+Finished in 0.12574 seconds (files took 3.56 seconds to load)
+4 examples, 0 failures
+~~~
+</section>
+{: data-background="#9A3026" }

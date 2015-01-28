@@ -1,0 +1,23 @@
+Meaningful commit messages
+--------------------------
+
+```
+commit ef6c9d0e14aa1a0381b91498f86c0802c75f1ede
+Author: Ryan Whitehurst <rw@puppetlabs.com>
+Date:   Wed Dec 3 14:36:05 2014 -0800
+
+    Add a defined type for nginx reverse proxies
+
+    This enables the creation of a same-box nginx reverse proxy simply and
+    easily. At its most basic, usage looks like
+
+    ```puppet
+    puppetlabs::appservices::nginx::ssl_proxy {'jira-web04-prod.puppetlabs.com': }
+    ```
+
+    which would create an nginx reverse proxy pointing at localhost:8000,
+    listening on *:80 and *:443 for the servername
+    `jira-web04-prod.puppetlabs.com` and forcing all traffic to HTTPS. As
+    well, the reverse proxy enables a maintenance page on the same server
+    which will be used when the real backend is unavailable.
+```

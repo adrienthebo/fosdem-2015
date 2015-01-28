@@ -1,0 +1,11 @@
+Response time is critical
+-------------------------
+
+![compiling](/images/compiling.png)
+
+<aside class="notes">
+
+  * The longer it takes to fix a bug, the more costly the bugfix is
+  * Getting interrupted slows you down
+
+</aside>

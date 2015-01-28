@@ -1,0 +1,8 @@
+CI Workflow
+-----------
+
+  * (Local) Develop
+  * (Local) Push to topic branch
+  * (CI) Syntax check
+  * (CI) Unit test
+  * (CI) Integration test
