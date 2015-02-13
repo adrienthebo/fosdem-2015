@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'revelations', :path => '~/development/revelations'
+gem 'revelations', :path => '~/tmp/revelations'
 gem 'adsf'
 
 gem 'guard'
